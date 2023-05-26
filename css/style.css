@@ -545,3 +545,45 @@ video {
 .italic {
   font-style: italic;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  padding: 1rem;
+  font-family: ;
+  margin: 0.5rem;
+  background-color: black;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 900px;
+  padding: 2rem;
+  margin: 1rem auto;
+  background-color: aliceblue;
+  background-image: linear-gradient(blue,white,purple,skyblue);
+  border: 10px solid black;
+}
+
+.hero {
+  font-size: 4rem;
+  padding: 10px;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  border-bottom:2px solid #000 ;
+}
+
+.hero img {
+  border-radius: 50%;
+  width: 50%%;
+}
+
+
+
