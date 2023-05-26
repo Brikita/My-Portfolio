@@ -522,6 +522,26 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
 .italic {
   font-style: italic;
 }
