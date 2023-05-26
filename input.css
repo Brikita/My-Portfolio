@@ -39,6 +39,10 @@ a:any-link {
     text-decoration: underline;
 }
 
+a:hover, a:focus {
+    opacity: 80%;
+}
+
 
 .left {
     float: left;
