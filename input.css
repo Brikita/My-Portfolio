@@ -10,7 +10,7 @@
 
 html {
     padding: 1rem;
-    font-family: ;
+    
     margin: 0.5rem;
     background-color: black;
 }
@@ -40,8 +40,10 @@ body {
 
 .hero img {
     border-radius: 50%;
-    width: 50%%;
+    width: 100%;
 }
 
-
+nav {
+    color: blue;
+}
 

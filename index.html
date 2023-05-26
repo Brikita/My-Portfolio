@@ -7,9 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio- Brian Kinyua</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
     <header>
+        <section class="menu">
+            <button id="ham-icon" class="text-3xl self-start menu">
+                &#9776;
+            </button>
+        </section>
+        <section id="ham-menu" class="absolute top-0 bg-black w-4/5 flex-col text-5xl justify-center origin-top animate-open-menu hidden menu">
+            <button class="text-5xl self-start px-6">&times;</button>
+            <nav class=" flex flex-col min-h-screen items-center w-80px py-8" aria-label="mobile">
+                <a href="#about" class="w-full text-center py-6 hover:opacity-80">About</a>
+                <a href="#interests" class="w-full text-center py-6 hover:opacity-80">Interests</a>
+                <a href="#projects" class="w-full text-center py-6 hover:opacity-80">Projects</a>
+                <a href="#contact" class="w-full text-center py-6 hover:opacity-80">Contact Me</a>
+                <a href="#social" class="w-full text-center py-6 hover:opacity-80">My Socials</a>
+            </nav>
+        </section>
         <section class="hero">
             <figure>
                 <img src="./img/personality.jpg" alt="" width="400" height="250">
