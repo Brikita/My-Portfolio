@@ -654,6 +654,8 @@ video {
 
 html {
   padding: 1rem;
+  scroll-behavior: smooth;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0.5rem;
   background-color: black;
 }
@@ -666,6 +668,26 @@ body {
   background-color: aliceblue;
   background-image: linear-gradient(blue,white,purple,skyblue);
   border: 10px solid black;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:-moz-any-link {
+  color: chartreuse;
+  text-decoration: underline;
+}
+
+a:any-link {
+  color: chartreuse;
+  text-decoration: underline;
 }
 
 .hero {
@@ -688,7 +710,113 @@ nav {
   color: blue;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+.background {
+  display: flex;
+  flex-flow: row wrap ;
+  border: 4px solid chartreuse;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.about {
+  max-width: 50%;
+  padding: 1rem 0.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larger;
+  color: #000;
+}
+
+.about__interests {
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larger;
+  border: 4px solid pink;
+  border-radius: 15px;
+  color: blue;
+  font-weight: 100;
+}
+
+aside {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  color: inherit;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+form {
+  padding: 1rem 2rem;
+  margin: 0.25rem;
+  font-family: monospace;
+  font-size: 1.25rem;
+  border: 2px solid #333;
+  border-radius: 20px;
+  background-color: khaki;
+}
+
+textarea {
+  display: block;
+  padding-left: 0.5rem ;
+  margin-bottom: 1rem;
+  min-width: 60px;
+  background-color: beige;
+  border: 1px solid gray ;
+  border-radius: 10px;
+}
+
+input {
+  padding: 0.5rem;
+}
+
+button {
+  font-size: larger;
+  background-color: aliceblue;
+  border: 3px solid gray;
+  padding: 0.5rem;
+  border-radius: 20%;
+}
+
+footer {
+  display: block;
+  padding: 1rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.projects {
+  padding: 2rem;
+  margin: 1rem;
+  border: 4px solid blue;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  letter-spacing: 1.2;
+}
+
+.footer__ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+}
+
+.arsenal {
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+}
+
+.footer__copy {
+  font-size: 1.2rem;
+}
+
 .hover\:opacity-80:hover {
   opacity: 0.8;
 }
-
