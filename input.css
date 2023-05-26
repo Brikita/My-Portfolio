@@ -39,6 +39,12 @@ a:any-link {
     text-decoration: underline;
 }
 
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
 .hero {
     font-size: 4rem;
     padding: 10px;
@@ -183,5 +189,13 @@ footer {
 
 .footer__copy {
     font-size: 1.2rem;
-    
+
+}
+
+
+
+@media screen and (min-width: 576px) {
+    nav {
+        display: none;
+    }
 }
