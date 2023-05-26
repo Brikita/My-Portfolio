@@ -203,3 +203,14 @@ footer {
         display: none;
     }
 }
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: black;
+        color: whitesmoke;
+        border-color: chartreuse;
+
+    }
+    
+}

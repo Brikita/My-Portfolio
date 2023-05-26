@@ -866,6 +866,14 @@ footer {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: black;
+    color: whitesmoke;
+    border-color: chartreuse;
+  }
+}
+
 .hover\:opacity-80:hover {
   opacity: 0.8;
 }
